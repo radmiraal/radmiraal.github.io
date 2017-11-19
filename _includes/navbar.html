@@ -3,7 +3,7 @@
         <div class="nav-wrapper main-nav">
             <a href="#" data-activates="nav-mobile" class="button-collapse deep-orange-text text-darken-4"><i class="material-icons">menu</i></a>
             <ul class="hide-on-med-and-down">
-                <li><a href="{{ site.baseurl }}" class="deep-orange-text text-darken-4">Home</a></li>
+                <li><a href="/" class="deep-orange-text text-darken-4">Home</a></li>
                 {% assign pages_list = site.pages %}
                 {% for node in pages_list %}
                     {% if node.title != null %}
@@ -15,7 +15,7 @@
             </ul>
 
             <ul class="side-nav" id="nav-mobile" >
-                <li><a href="{{ site.baseurl }}">Home</a></li>
+                <li><a href="/">Home</a></li>
                 {% assign pages_list = site.pages %}
                 {% for node in pages_list %}
                     {% if node.title != null %}
