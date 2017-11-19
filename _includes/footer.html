@@ -1,0 +1,31 @@
+<footer class="page-footer orange lighten-4">
+    <div class="container">
+        <div class="row">
+            <div class="right col l4 offset-l2 s12">
+                <ul>
+                    <li><a class="teal-text text-darken-4" href="https://twitter.com/renst3">Twitter</a></li>
+                    <li><a class="teal-text text-darken-4" href="https://nl.linkedin.com/in/rensadmiraal">LinkedIn</a></li>
+                    <li><a class="teal-text text-darken-4" href="https://github.com/radmiraal">Github</a></li>
+                    <li><a class="teal-text text-darken-4" href="https://keybase.io/radmiraal">Keybase</a></li>
+                    <li><a class="teal-text text-darken-4" href="https://www.simplyadmire.com">SimplyAdmire</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2013 - {{ site.time | date: '%Y' }} Rens Admiraal
+        </div>
+    </div>
+</footer>
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+{% if jekyll.environment == "production" %}
+    <script src="/assets/scripts/site.js" data-disqus_shortname="rensadmiraalnl" data-piwik-domain="piwik.simplyadmire.com" data-piwik-site_id="1" data-pingdom-id="516ae746abe53dc620000000"></script>
+{% else %}
+<script src="/assets/scripts/site.js"></script>
+{% endif %}
+</body>
+</html>

@@ -1,0 +1,32 @@
+# Dependencies
+markdown:             redcarpet
+highlighter:          pygments
+
+exclude:              ["bin/"]
+timezone:             "Europe/Amsterdam"
+
+# Permalinks
+permalink:            pretty
+
+# Setup
+title:                Rens Admiraal
+tagline:              "East west, CLI best"
+description:          ""
+url:                  https://www.rensadmiraal.nl/
+baseurl:              /
+
+github:
+  user:               "radmiraal"
+  repository:         "radmiraal.github.io"
+  url:                "https://github.com/radmiraal/radmiraal.github.io"
+  status:             true
+
+sass:
+  sass_dir: "_sass"
+  style: compressed
+
+paginate:             6
+paginate_path:        "/page/:num/"
+
+plugins:
+  - jekyll-redirect-from

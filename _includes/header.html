@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        {% if page.title == "Home" %}
+        {{ site.title }} &middot; {{ site.tagline }}
+        {% else %}
+        {{ page.title }} &middot; {{ site.title }}
+        {% endif %}
+    </title>
+    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none' ; style-src 'self' ; font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com ; script-src 'self' https://code.jquery.com https://cdnjs.cloudflare.com ;">
+
+    <link href="/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+<body>
