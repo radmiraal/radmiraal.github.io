@@ -10,16 +10,16 @@ permalink:            pretty
 
 # Setup
 title:                Rens Admiraal
+title_separator:      " * "
 tagline:              "East west, CLI best"
 description:          ""
-url:                  https://www.rensadmiraal.nl/
+url:                  http://www.rensadmiraal.nl/
 baseurl:              /
 
-github:
-  user:               "radmiraal"
-  repository:         "radmiraal.github.io"
-  url:                "https://github.com/radmiraal/radmiraal.github.io"
-  status:             true
+site:
+  locale:             "en_US"
+
+repository: "radmiraal/radmiraal.github.io"
 
 sass:
   sass_dir: "_sass"
