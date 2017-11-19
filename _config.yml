@@ -1,14 +1,10 @@
-# Dependencies
-markdown:             redcarpet
 highlighter:          rouge
 
 exclude:              ["bin/"]
 timezone:             "Europe/Amsterdam"
 
-# Permalinks
 permalink:            pretty
 
-# Setup
 title:                Rens Admiraal
 tagline:              "East west, CLI best"
 description:          ""
