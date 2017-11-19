@@ -5,25 +5,22 @@ title: Home
 
 <div class="row">
     {% for post in paginator.posts %}
-    <div class="col s12 m6">
-        <div class="card">
-            <div class="card-content">
-                <span class="card-title deep-orange-text text-darken-4">
-                    {% if post.card.title %}
-                        {{ post.card.title }}
-                    {% else %}
-                        {{ post.title }}
-                    {% endif %}
-                </span>
-                <div>
-                    <time>{{ post.date | date_to_string }}</time>
+        <div class="col s12 m6">
+            <div class="card">
+                <div class="card-content">
+                    <span class="right secondary-content">{{ post.date | date: "%-d %b %Y" }}</span>
+                    <span class="card-title">
+                        <a href="{{ post.url }}" class="deep-orange-text text-darken-4">
+                            {% if post.card.title %}
+                                {{ post.card.title }}
+                            {% else %}
+                                {{ post.title }}
+                            {% endif %}
+                        </a>
+                    </span>
                 </div>
             </div>
-            <div class="card-action">
-                <a href="{{ post.url }}" class="teal-text text-darken-4">Read more</a>
-            </div>
         </div>
-    </div>
     {% endfor %}
 </div>
 
