@@ -1,6 +1,6 @@
 # Dependencies
 markdown:             redcarpet
-highlighter:          pygments
+highlighter:          rouge
 
 exclude:              ["bin/"]
 timezone:             "Europe/Amsterdam"
@@ -15,11 +15,11 @@ description:          ""
 url:                  http://www.rensadmiraal.nl/
 baseurl:              /
 locale:               "en_US"
-repository: "radmiraal/radmiraal.github.io"
+repository:           "radmiraal/radmiraal.github.io"
 
 sass:
-  sass_dir: "assets/css"
-  style: compressed
+  sass_dir:           "assets/css"
+  style:              compressed
 
 paginate:             6
 paginate_path:        "/page/:num/"
