@@ -25,14 +25,14 @@ After the reboot I noticed that having an SD card with Raspbian is nice, but if 
 the software on it does not update at all :-) The Debian version on it was wheezy, while current stable is jessie. So
 first step was to upgrade to Jessie. Below are the simple steps I took to do this upgrade.
 
-# Update all packages
+## Update all packages
 After installing a new OS or upgrading an OS I find it a good practice to update all packages to the most recent
 versions available:
 
     sudo apt-get update
     sudo apt-get upgrade
 
-# Upgrade Debian
+## Upgrade Debian
 Now I wanted to do a dist-upgrade, for that I ran the following command:
 
     sudo apt-get dist-upgrade

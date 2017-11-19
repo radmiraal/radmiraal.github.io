@@ -2,8 +2,16 @@
 layout: default
 ---
 
-<span class="post-date">{{ page.date | date_to_string }}</span>
-{{ content }}
+<article class="card margin-below">
+    <div class="card-content">
+        <span class="right secondary-content blue-text text-darken-4">{{ page.date | date: "%-d %b %Y" }}</span>
+        <h1 class="card-title deep-orange-text text-darken-4">{{ page.title }}</h1>
+
+        <section class="article-content">
+            {{ content }}
+        </section>
+    </div>
+</article>
 
 {% assign maxRelated = 4 %}
 {% assign minCommonTags =  2 %}
@@ -26,13 +34,14 @@ layout: default
 
     {% if sameTagCount >= minCommonTags %}
         {% if shownRelated != 1 %}
-            <div class="relatedPosts"><h4>Related posts</h4>
+            <div class="card margin-below">
+                <div class="card-content">
+                    <span class="card-title deep-orange-text text-darken-4">Related posts</span>
+                    <ul>
         {% endif %}
 
         {% assign shownRelated = 1 %}
-        <div>
-            <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a></h5>
-        </div>
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a></li>
         {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
         {% if maxRelatedCounter >= maxRelated %}
             {% break %}
@@ -41,5 +50,7 @@ layout: default
 
 {% endfor %}
 {% if shownRelated == 1 %}
-    </div>
+                    </ul>
+                </div>
+            </div>
 {% endif %}

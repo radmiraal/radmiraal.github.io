@@ -24,7 +24,7 @@ So I started hacking, with a working outcome.
 Not all sniff rules for TYPO3 Flow are fully finalized yet. We will provide follow ups to have the rules match the CGL
 within a reasonable amount of time.*
 
-# Setting it up
+## Setting it up
 The setup for the codesniffing is fairly easy. You just include the package with the codesniffer standard like:
 
     composer require --dev typo3-ci/typo3flow=dev-master
@@ -34,7 +34,7 @@ run the sniffs by using:
 
     bin/phpcs --extensions=php --standard=TYPO3Flow <path>
 
-# Configure PHPStorm
+## Configure PHPStorm
 If you use PHPStorm you can configure phpcs in your code inspections. Probably other IDE's have the same support, but
 for that you will have to find the configuration yourself. If you have one, please leave a comment below so other people
 can learn from it.
@@ -44,7 +44,7 @@ to the bin/phpcs file in your project. Now go to `Settings > Project Settings > 
 `PHP > PHP Code Sniffer validation`. If you now press the refresh button next to the `Coding standard` selectbox the
 TYPO3Flow standard should appear in the selectable options. Select it, and press `Ok`. You should now be good to go.
 
-# Use in other PHP projects
+## Use in other PHP projects
 The [SimplyAdmire ComposerPlugins](https://github.com/SimplyAdmire/ComposerPlugins) are not just bound to TYPO3
 products. You can use them in your own PHP projects too, as long as your package manager is composer. You can find an
 explanation on the github repository.

@@ -25,20 +25,28 @@ title: Home
     {% endfor %}
 </div>
 
-<div class="pagination">
-    {% if paginator.next_page %}
-        <a class="pagination-item older" href="{{ site.baseurl }}page/{{paginator.next_page}}">Older</a>
-    {% else %}
-        <span class="pagination-item older">Older</span>
-    {% endif %}
-
-    {% if paginator.previous_page %}
-        {% if paginator.page == 2 %}
-            <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+<div class="containter">
+    <ul class="pagination center-align teal-text">
+        {% if paginator.previous_page %}
+            <li class="waves-effect">
+                <a href="{{ paginator.previous_page_path }}" class="deep-orange-text text-darken-4">
+                    <i class="material-icons">chevron_left</i>
+                </a>
+            </li>
         {% else %}
-            <a class="pagination-item newer" href="{{ site.baseurl }}page/{{paginator.previous_page}}">Newer</a>
+            <li><i class="material-icons grey-text">chevron_left</i></li>
         {% endif %}
-    {% else %}
-        <span class="pagination-item newer">Newer</span>
-    {% endif %}
+
+        <li class="page_number black-text">{{ paginator.page }} of {{ paginator.total_pages }}</li>
+
+        {% if paginator.next_page %}
+            <li class="waves-effect">
+                <a href="{{ paginator.next_page_path }}" class="deep-orange-text text-darken-4">
+                    <i class="material-icons">chevron_right</i>
+                </a>
+            </li>
+        {% else %}
+            <li><i class="material-icons grey-text">chevron_right</i></li>
+        {% endif %}
+    </ul>
 </div>

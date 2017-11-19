@@ -1,0 +1,42 @@
+---
+---
+
+@import "highlighter";
+
+.highlight {
+    margin: 1em;
+    padding: .3em;
+}
+
+.container {
+    padding-top: 3rem;
+}
+
+.margin-below {
+    margin-bottom: 4em;
+}
+
+.article-content,
+.page-content {
+    font-size: 1.5em;
+    ul {
+        padding-left: 2rem;
+
+        & > li {
+            list-style-type: circle;
+        }
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+    h3 {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    h4 {
+        font-weight: bold;
+    }
+}
+

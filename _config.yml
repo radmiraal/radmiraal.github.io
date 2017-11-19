@@ -18,7 +18,7 @@ locale:               "en_US"
 repository: "radmiraal/radmiraal.github.io"
 
 sass:
-  sass_dir: "_sass"
+  sass_dir: "assets/css"
   style: compressed
 
 paginate:             6

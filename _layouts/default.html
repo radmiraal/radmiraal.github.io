@@ -1,9 +1,6 @@
 {% include header.html %}
 {% include navbar.html %}
 <div class="container">
-    {% if page.title != "Home" %}
-        <h1 class="page-title deep-orange-text text-darken-4">{{ page.title }}</h1>
-    {% endif %}
     {{ content }}
 </div>
 {% include footer.html %}
