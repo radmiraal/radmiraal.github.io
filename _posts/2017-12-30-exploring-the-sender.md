@@ -23,8 +23,7 @@ was too demotivated to continue...
 
 For this post I **assume** he was demotivated because that fits the message I wanted to share for a while now.
 
-Let's zoom in a bit and apply the sender / receiver pattern 
-([Shannon-Weaver model](https://en.wikipedia.org/wiki/Shannon%E2%80%93Weaver_model)). How can message for example become
+Let's zoom in a bit and using the sender / receiver pattern. How can message for example become
 offensive?
 
 * The content IS offensive but neither the sender nor the receiver takes it that way
@@ -53,7 +52,7 @@ I think a response taken neutral by Pete can be seen as 0 or 1 point, a response
 even more points. A negative one though easily put him back loads of points. And in the above example the worst situation
 would be that Pete would read this message as a disqualification of him as a person because he is different because he
 is using tool 'x' which the sender (possibly an authority / spokesmen of the community) does not like / see a usecase for.
-This basically means he might think he's differnt, and does not fit the community.
+This basically means he might think he's different, and does not fit the community.
 
 Yes, I know... It's an extreme. But please shift more of the "take it positive" to the sender side of the story... Do not
 hide yourself as sender behind the "the receiver should understand I meant it positively". Please...
