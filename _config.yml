@@ -17,7 +17,7 @@ sass:
   sass_dir:           "assets/css"
   style:              compressed
 
-paginate:             6
+paginate:             12
 paginate_path:        "/page/:num/"
 
 plugins:

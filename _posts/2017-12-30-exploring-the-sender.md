@@ -7,9 +7,13 @@ tags:
 
 Today I read a feature request on github. Let's say something like this dialogue happend:
 
-    $ Pete: Hi, can I have compatibility with tool 'x'
-    $ Hanky: We're trying to have a small codebase. Would you mind commenting what benefits tool 'x' has?
-    $ Hanky closes feature request
+Pete:
+> Hi, can I have compatibility with tool 'x'
+
+Hanky:
+> We're trying to have a small codebase. Would you mind commenting what benefits tool 'x' has?
+
+And Hanky closes feature request
 
 Anything wrong here? Nope, objectively and without any form of emotions the feature request was handled pretty effectively.
 The requestor has a chance to comment and reopen right?
@@ -64,15 +68,16 @@ valuable people are, and then start writing your kind response.
 Accept the idea, welcome people, and then heavily doubt the usecase if you like. And now I'm not going to preach that my
 communication style is great, but a response like this might have changed Petes day and might have lead to a longer conversation:
 
-    Hi Pete, awesome that you use this software and good to see people trying to match it with tools we do not support yet.
-    I personally are not a user of tool 'x' and I am sure you understand we try to keep the codebase small so mainteance is easier.
-    Can you give me some more information about why you use tool 'x' and not one of the other alternatives for the platform you work on?
-
-    I'd like hearing from you, I'll keep the issue open for the next week. If I don't hear back from you by then I'll close the issue to
-    keep the issue tracker clean.
-    
-    Greetz,
-    Hanky
+> Hi Pete, awesome that you use this software and good to see people trying to match it with tools we do not support yet.
+>
+> I personally are not a user of tool 'x' and I am sure you understand we try to keep the codebase small so mainteance is easier.
+> Can you give me some more information about why you use tool 'x' and not one of the other alternatives for the platform you work on?
+>
+> I'm looking forward to hearing from you, I'll keep the issue open for the next week. If I don't hear back from you by then I'll
+> close the issue to keep the issue tracker clean.
+>
+> Greetz,
+> Hanky
 
 And again, yes... I understand typing more text in hundreds of issues can be a burden. And yes, I also have had PR's
 where I had a hard time trying to see the reasoning and not doubting the persons understanding of the code. But I am
