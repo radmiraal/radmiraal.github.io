@@ -5,7 +5,7 @@ tags:
   - community
 ---
 
-Today I read a feature request on github. Let's say something like this dialogue happend:
+Today I read a feature request on github. Let's say something like this dialogue happened:
 
 Pete:
 > Hi, can I have compatibility with tool 'x'
@@ -13,7 +13,7 @@ Pete:
 Hanky:
 > We're trying to have a small codebase. Would you mind commenting what benefits tool 'x' has?
 
-And Hanky closes feature request
+And Hanky closes the feature request
 
 Anything wrong here? Nope, objectively and without any form of emotions the feature request was handled pretty effectively.
 The requestor has a chance to comment and reopen right?
@@ -37,7 +37,7 @@ where could the receiver go to?
  
 In many communities there are values like "not taking things offensive" or "humility". I like those bigtime, don't get
 me wrong. But they hold a certain danger. We can not deny problems / negativity by waving it away and simply state we
-only focus on the positive. This we only limit the community growth (or even shrink it). 
+only focus on the positive. This way we only limit the community growth (or even shrink it).
 
 What if receiver actually **is** offended? What if receiver **is** demotivated? What if receiver **is** hurt? 
 It happened to me personally multiple times. I would like to explain a bit why, and hope it will in some way help people
@@ -46,11 +46,11 @@ at a point. Either senders or receivers.
 Let's zoom in to Pete. Pete is a part of a community. His feature request is a contribution, and one being done in plain
 sight. World wide public. Maybe Pete is introvert and uncertain, he might have trouble stepping up. And then on a saturday
 morning he sends in the feature request. I think at this point Pete is on a really vulnerable position. He's stepping out,
-raising his head. Those situations can either make or break people, and many people tend to forget that.
+raising his head. Those situations can either make or break people, and in many cases people tend to forget that.
 
 I think a response taken neutral by Pete can be seen as 0 or 1 point, a response taken positively can easily be 2, 3 or
-even more points. A negative one though easily put him back loads of points. And in the above example the worst situation
-would be that Pete would read this message as a disqualification of him as a person because he is different because he
+even more points. A negative one though easily puts him back loads of points. And in the above example the worst situation
+would be that Pete would read this message as a disqualification of him as a person. Because he is different because he
 is using tool 'x' which the sender (possibly an authority / spokesmen of the community) does not like / see a usecase for.
 This basically means he might think he's different, and does not fit the community.
 
