@@ -5,41 +5,27 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Independent contractor. Development, deployments and consultancy." />
     <title>Rens Admiraal &middot; East west, CLI best</title>
 </head>
 
 <body class="h-full flex flex-col bg-slate-100 justify-between">
     <main class="w-full max-w-7xl mx-auto h-full xl:max-h-96">
-        <img src="src/bg.jpg" class="min-w-full min-h-full object-cover" />
+        <img src="src/bg.jpg" class="min-w-full min-h-full object-cover" alt="" aria-hidden="true" />
     </main>
 
     <footer class="bg-gray-800" aria-labelledby="footer-heading">
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-            <dl class="text-sm text-gray-400 space-y-1.5">
-                <div>
-                    <dt class="sr-only">Company name:</dt>
-                    <dl>Rens Admiraal BV</dl>
+            <div class="text-sm text-gray-400 space-y-1.5" vocab="https://schema.org/" typeof="Organization">
+                <div property="name">Rens Admiraal BV</div>
+                <div property="address" typeof="PostalAddress">
+                    <span property="streetAddress">Goudsbloemstraat 1</span><br />
+                    <span property="postalCode">6871 WB</span> <span property="addressLocality">Renkum</span>
                 </div>
-                <div>
-                    <dt class="sr-only">Address:</dt>
-                    <dl>
-                        Goudsbloemstraat 1<br />
-                        6871 WB Renkum
-                    </dl>
-                </div>
-                <div>
-                    <dt class="sr-only">Chamber of commerce:</dt>
-                    <dl>69908265</dl>
-                </div>
-                <div>
-                    <dt class="sr-only">VAT Id</dt>
-                    <dl>NL858061491B01</dl>
-                </div>
-                <div>
-                    <dt class="sr-only">IBAN</dt>
-                    <dl>NL08BUNQ2043860828</dl>
-                </div>
-            </dl>
+                <div property="identifier">69908265</div>
+                <div property="vatID">NL858061491B01</div>
+                <div property="iban">NL08BUNQ2043860828</div>
+            </div>
 
             <div class="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
                 <div class="flex space-x-6 md:order-2">
@@ -76,8 +62,7 @@
                         </svg>
                     </a>
                 </div>
-                <p class="mt-8 text-xs text-gray-400 md:mt-0 md:order-1">&copy; 2020 Rens Admiraal BV, All rights
-                    reserved.</p>
+                <p class="mt-8 text-xs text-gray-400 md:mt-0 md:order-1">&copy; 2022 Rens Admiraal, All rights reserved.</p>
             </div>
         </div>
     </footer>
