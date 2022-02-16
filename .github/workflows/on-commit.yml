@@ -24,7 +24,7 @@ jobs:
 
       - uses: EndBug/add-and-commit@v8
         with:
-          add: "-f dist"
+          add: "-f docs"
           message: "ci: Auto commit npm build result"
           committer_name: GitHub Actions
           committer_email: github@rensadmiraal.nl
