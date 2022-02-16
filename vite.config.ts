@@ -5,7 +5,10 @@ const path = require('path');
 
 const viteConfig = {
     plugins: [],
-    resolve: {}
+    resolve: {},
+    build: {
+        outDir: 'docs'
+    }
 }
 
 if (process.env.NODE_ENV !== 'production') {
