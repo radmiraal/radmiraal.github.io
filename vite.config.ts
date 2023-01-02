@@ -7,7 +7,7 @@ import { resolve } from 'path'
 const viteConfig = {
     plugins: [
         handlebars({
-            partialDirectory: resolve(__dirname, 'partials'),
+            partialDirectory: resolve(__dirname, 'src/partials'),
             reloadOnPartialChange: false
         })
     ],
