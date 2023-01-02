@@ -1,10 +1,16 @@
-import {defineConfig} from 'vite'
+import { defineConfig } from 'vite'
 import fs from 'fs'
+import handlebars from 'vite-plugin-handlebars'
 
-const path = require('path');
+import { resolve } from 'path'
 
 const viteConfig = {
-    plugins: [],
+    plugins: [
+        handlebars({
+            partialDirectory: resolve(__dirname, 'partials'),
+            reloadOnPartialChange: false
+        })
+    ],
     resolve: {},
     build: {
         outDir: 'docs'
